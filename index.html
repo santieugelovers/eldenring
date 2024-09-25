@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Freeman&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" media="screen" href="style.css">
+    <title>Responsive HTML</title>
+</head>
+
+<body id="background">
+    
+
+    <header id="header">
+       
+            <img  class="header-logo" id="content-header" src="https://static.bandainamcoent.eu/high/elden-ring/elden-ring/00-page-setup/eldenring_new.png" alt="eldenring" width="300px">
+            <input type="checkbox" id="check">
+            <label for="check" class="show-menu">&#8801</label>
+            <label for="check" class="hide-menu">&#215</label>
+
+            <nav class="menu">
+                <a href="#">Redes</a>
+                <a href="https://store.bandainamcoent.com/">Tienda</a>
+                <a href="https://www.youtube.com/watch?v=E3Huy2cdih0">Trailer</a>
+            </nav>
+       
+        
+    </header>
+    
+    <section id="banner">
+        <div class="banner-content">
+            <h3><span>Elden Ring:</span>Tienda</h3>
+            <a href="https://es.bandainamcoent.eu/elden-ring/elden-ring/shop-now" class="buy-button">Ir a comprar</a>
+        </div>
+    </section>
+
+    <section id="lore" >
+        <div class="first-element">
+            <img src="/img/photo-one.jpg">
+            <div class="text-element">
+                <h4>La Orden Dorada está rota.</h4>
+                <p>Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias.
+                En las Tierras Intermedias gobernadas por la Reina Márika, la Eterna, el Círculo de Elden, origen del Árbol Áureo, ha sido destruido. <br>
+                <br>
+                Los descendientes de Márika, todos semidioses, reclamaron los fragmentos del Círculo de Elden conocidos como Grandes Runas. Fue entonces cuando la demencial corrupción de su renovada fuerza provocó una guerra: la Devastación. <br/>
+                <br>
+                Una guerra que supuso el abandono de la Voluntad Mayor. Y ahora, la gracia que nos guía recaerá sobre el Sinluz desdeñado por la gracia del oro y exiliado de las Tierras Intermedias. Tú que has muerto, pero vives, con tu gracia tiempo ha perdida, recorre la senda hacia las Tierras Intermedias más allá del neblinoso mar para postrarte ante el Círculo de Elden.</p>
+            </div>
+        </div>
+
+        <div class="second-element">
+            <img src="/img/photo-two.jpg">
+            <div class="text-element">
+                <h4>Los Sinluz de las Tierras Intermedias.</h4>
+                <p>La Orden Dorada está rota. A lo largo y ancho de las Tierras Intermedias, semidioses poseedores de fragmentos del Círculo de Elden se enfrentan y combaten entre las ruinas de un reino otrora perfecto, hoy abandonado por las enseñanzas doradas de la Voluntad Mayor. <br>
+                <br>
+                Mientras los ecos de la contienda retumban a lo lejos, una figura proscrita se acerca. Antaño, sus antepasados llamaron a las Tierras Intermedias su hogar, pero la bendita luz de la gracia se perdió para su pueblo y fueron expulsados del reino. Son los Sinluz, y han vuelto para reclamar el título de Elden prometido por la leyenda. <br>
+                <br>
+                Este es el mundo de ELDEN RING. Conviértete en Sinluz y explora las Tierras Intermedias. Cabalgarás por vastas praderas, galoparás por suaves colinas y ascenderás hasta la cima de rocosos peñascos a lomos de tu efímero corcel para descubrir un mundo rebosante de vida y peligros.</p>
+            </div>
+        </div>
+        <div class="particle-background">
+            <div id="particles-js"></div>
+        </div>
+    </section>
+
+    <section id="dlc-lore">
+        <h4>ELDEN RING - Shadow of the Erdtree</h4>
+        <iframe class="trailer-video" src="https://www.youtube.com/embed/6uT8wGtB3yQ?si=KqIBgaKmDLxu6_X9" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
