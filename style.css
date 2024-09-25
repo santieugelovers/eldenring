@@ -76,7 +76,7 @@ body{
 #banner{
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(/img/banner.png);
+    background-image: url(https://github.com/santieugelovers/eldenring/blob/main/img/banne?raw=true);
     height: 80vh;
     z-index: 200;
     background-size: cover;
@@ -132,7 +132,7 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-image: url(/img/lore-background.png);
+    background-image: url(https://github.com/santieugelovers/eldenring/blob/main/img/lore-background.png?raw=true);
     background-attachment: fixed;
     background-position: right;
     background-size: cover;
@@ -179,7 +179,7 @@ body{
 /* dlc lore */
 
 #dlc-lore{
-    background-image: url(/img/dlc-background.png);
+    background-image: url(https://github.com/santieugelovers/eldenring/blob/main/img/dlc-background.png?raw=true);
     background-attachment: fixed;
     background-size: cover;
     height: 90vh;
