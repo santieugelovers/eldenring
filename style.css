@@ -216,6 +216,7 @@ body{
 
 .particle-background{
     position: absolute;
+    background-color: red;
     top: 80%;
     width: 100%;
     height: 150vh;
