@@ -216,7 +216,6 @@ body{
 
 .particle-background{
     position: absolute;
-    background-color: red;
     top: 80%;
     width: 100%;
     height: 150vh;
@@ -238,6 +237,8 @@ body{
 @media(max-width: 1250px){
 
     
+
+
     /*header*/
     #header{
         z-index: 100;
@@ -334,7 +335,7 @@ body{
         flex-direction: column;
             
     }
-    #lore div{
+    #lore div {
         transform: scale(1.4);
         flex-direction: column;
         margin-bottom: 16vh;
@@ -343,6 +344,17 @@ body{
         padding: 0%;
         top: 10%;
     }
+
+        /* particulas */
+
+    #lore .particle-background {
+       /* filter: opacity(0.5); */
+        height: 108vh;
+        top: 98vh;
+        width: 100vh;
+
+    }
+
     #lore img{
         width: 15vh;
     }
@@ -355,6 +367,10 @@ body{
 
 }
 @media(max-width:1000px){
+    #lore .particle-background {
+        height: 108vh;
+        top: 93vh;
+    }
     /* lore fotos */
     #lore div{
         transform: scale(1.4);
@@ -368,6 +384,10 @@ body{
 }
 
 @media(max-width:580px){
+    #lore .particle-background {
+        height: 115vh;
+        top: 90vh;
+    }
     #lore div{
         transform: scale(1.3);
         width: 30vh;
@@ -378,6 +398,10 @@ body{
 }
 
 @media(max-width:430px){
+    #lore .particle-background {
+        height: 115vh;
+        top: 90vh;
+    }
     #lore div{
         transform: scale(1.3);
         width: 15vh;
